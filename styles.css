@@ -1,0 +1,67 @@
+.title-search-bar {
+    text-align: center;
+}
+
+#btn-submit, #btn-trending{
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    border-color: transparent;
+    font-size: 13px;
+    transition: background-color,  0.4s;
+}
+
+#btn-submit{
+    background-color:#28A745;
+}
+
+#btn-trending{
+    background-color: #DC3545;
+}
+
+#btn-trending:hover{
+    border-color: #b21f2d;
+    box-shadow: 0 0 0 0.2rem rgb(220 53 69 / 50%);
+    border-color: transparent;
+    background-color:  #ad2c39;
+}
+
+#btn-submit:hover{
+    border-color: #1c7430;
+    box-shadow: 0 0 0 0.2rem rgb(40 167 69 / 50%);
+    border-color: transparent;
+    background-color: #1f8a38;
+}
+
+.gifs-container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.gif-box {
+    margin: 0.5rem;
+    display: inline-block;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+}
+
+#suggestions{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.suggestion{
+    background-color: rgb(223, 223, 223);
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 460px) {
+    .gifs-container{
+        display: flex;
+        flex-flow: column;
+    }
+}
